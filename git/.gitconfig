@@ -2,6 +2,6 @@
 	email = gacrestani@gmail.com
 	name = Giovanni A. Crestani
 [core]
-	editor = vim~
+	editor = vim
 [init]
 	defaultBranch = main
