@@ -1,0 +1,1 @@
+2025-08-22 11:52:08.345 [warning] Exception occurred during terminal shutdown [{"name":"CodeExpectedError","_message":"The connection timed out","_code":"NotAvailable","_detail":true,"isHandled":true}]

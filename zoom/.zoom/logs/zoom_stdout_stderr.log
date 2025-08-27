@@ -1,0 +1,23 @@
+ZoomLauncher started.
+Zoom path is: /opt/zoom
+cmd line: zoomus://oregonstate.zoom.us/sso?token=%7EUSER_CRYPTO%7EDKXe0zpOEYXhEFwvegAACgEAALyQeqk7o1go_U_3HPXT9ncJTRlS5eqNqL6IZLOwmlFrS4b3Pds058woiLL74XHlNj8jrbYpakmIEgCZhTfORDH_AkZtuRehwLLTg8jdjaOQJ1n2LhURJaNR-V5O_zX7u75uJCvWcJev2ewOl0zVTH1lww1Qyv95ckOYWKmaH4-pK2nYrmkEIHOgeqKa_W27CVk21gcU3oMlP6rVUpHDnNKjoOSCKlJg2aRw-8LPQS9PIBA7GoNitCqr_8Fs7h7xyGizxjTtfkT0h2eD7wvaepfthdEuXvRAvXUsI4fa33OVDSYdtHZbcMjitnm3OcrCHvv-XhOv8sZJZWeIy0N3WhbCFE7fVJT-TACetFkSac5_QL9qT2oqJU42TjAwMDAwMQ&code_challenge=MMr42Syp+LaHF+kUZcsKlrm1jNtQvos4VfO2PCyoaOU=
+Start subprocess: /opt/zoom/zoom sucessfully,  process pid: 28388 
+no pactl and  pacmd found at this system.                             Class      App      Lib Possible Culprit Flags
+                resip::Connection      656      656 
+                      resip::Data       36       36 
+                 resip::DnsResult     1080     1080 
+                   resip::Headers        1        1 
+          resip::MsgHeaderScanner       40       40 
+                resip::SipMessage     5224     5224 
+         resip::TransportSelector      896      896 
+                     resip::Tuple      128      128 
+              resip::UdpTransport     1144     1144 
+          resip::GenericIPAddress       28       28 
+
+zoom started.
+Client: Breakpad is using Single Client Mode! client fd = -1
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+Zoom is running, send message to it: zoomus://oregonstate.zoom.us/sso?token=%7EUSER_CRYPTO%7EDKXe0zpOEYXhEFwvegAACgEAALyQeqk7o1go_U_3HPXT9ncJTRlS5eqNqL6IZLOwmlFrS4b3Pds058woiLL74XHlNj8jrbYpakmIEgCZhTfORDH_AkZtuRehwLLTg8jdjaOQJ1n2LhURJaNR-V5O_zX7u75uJCvWcJev2ewOl0zVTH1lww1Qyv95ckOYWKmaH4-pK2nYrmkEIHOgeqKa_W27CVk21gcU3oMlP6rVUpHDnNKjoOSCKlJg2aRw-8LPQS9PIBA7GoNitCqr_8Fs7h7xyGizxjTtfkT0h2eD7wvaepfthdEuXvRAvXUsI4fa33OVDSYdtHZbcMjitnm3OcrCHvv-XhOv8sZJZWeIy0N3WhbCFE7fVJT-TACetFkSac5_QL9qT2oqJU42TjAwMDAwMQ&code_challenge=MMr42Syp+LaHF+kUZcsKlrm1jNtQvos4VfO2PCyoaOU=
+Exit zoom as another zoom instance is running!
+no pactl and  pacmd found at this system.zoom exited normally, exit code is 0 .
+ZoomLauncher exit.

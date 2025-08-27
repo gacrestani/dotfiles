@@ -1,0 +1,19 @@
+2025-08-26 10:27:50.071 [warning] Exception occurred during terminal shutdown [{"name":"CodeExpectedError","_message":"Connecting with SSH timed out","_code":"NotAvailable","_detail":true,"isHandled":true}]
+2025-08-26 10:31:00.458 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 6.50ms
+ptyhostservice<->ptyhost: 1.54ms []
+2025-08-26 10:31:00.458 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 6.20ms
+ptyhostservice<->ptyhost: 1.50ms []
+2025-08-26 10:31:00.459 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 6.10ms
+ptyhostservice<->ptyhost: 1.39ms []
+2025-08-26 10:31:00.459 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 6.00ms
+ptyhostservice<->ptyhost: 1.33ms []
+2025-08-26 10:31:06.231 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 8.60ms
+ptyhostservice<->ptyhost: 0.28ms []
+2025-08-26 10:31:22.025 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 12.10ms
+ptyhostservice<->ptyhost: 0.32ms []

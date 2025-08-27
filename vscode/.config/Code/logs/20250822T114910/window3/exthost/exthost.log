@@ -1,0 +1,415 @@
+2025-08-22 11:58:55.023 [info] Extension host with pid 33582 started
+2025-08-22 11:58:55.023 [info] [resolveAuthority(ssh-remote,1)][1ms] activating remote resolvers ssh-remote+vscode-direct
+2025-08-22 11:58:55.023 [info] [resolveAuthority(ssh-remote,1)][1ms] activating resolver for ssh-remote+vscode-direct...
+2025-08-22 11:58:55.036 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2025-08-22 11:58:55.116 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 11:58:55.250 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 11:58:55.252 [info] [resolveAuthority(ssh-remote,1)][235ms] invoking final resolve()...
+2025-08-22 11:58:55.809 [error] [resolveAuthority(ssh-remote,1)][792ms] returned an error An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:58:55.997 [info] Eager extensions activated
+2025-08-22 11:58:56.107 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-22 11:59:07.386 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-22 11:59:07.401 [info] Extension host with pid 33582 exiting with code 0
+2025-08-22 11:59:08.544 [info] Extension host with pid 33643 started
+2025-08-22 11:59:08.595 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-22 11:59:08.727 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-22 11:59:08.765 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-22 11:59:08.827 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-22 11:59:08.984 [info] Eager extensions activated
+2025-08-22 11:59:08.986 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-22 11:59:08.989 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-22 11:59:10.045 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:opensshremotes.openEmptyWindowInCurrentWindow'
+2025-08-22 11:59:11.200 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-22 11:59:11.221 [info] Extension host with pid 33643 exiting with code 0
+2025-08-22 11:59:12.239 [info] Extension host with pid 33679 started
+2025-08-22 11:59:12.239 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+hpc-direct
+2025-08-22 11:59:12.239 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+hpc-direct...
+2025-08-22 11:59:12.250 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2025-08-22 11:59:12.321 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 11:59:12.456 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 11:59:12.458 [info] [resolveAuthority(ssh-remote,1)][228ms] invoking final resolve()...
+2025-08-22 11:59:13.010 [error] [resolveAuthority(ssh-remote,1)][780ms] returned an error An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:59:13.130 [info] Eager extensions activated
+2025-08-22 11:59:13.286 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-22 11:59:15.073 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-22 11:59:15.088 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at rl (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116493
+	at Array.forEach (<anonymous>)
+	at C4.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116433)
+	at LZ.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10194)
+	at E3.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+	at ws (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:10154)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6693)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-08-22 11:59:15.149 [info] Extension host with pid 33679 exiting with code 0
+2025-08-22 11:59:16.322 [info] Extension host with pid 33727 started
+2025-08-22 11:59:16.355 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-22 11:59:16.491 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-22 11:59:16.502 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-22 11:59:16.575 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-22 11:59:16.760 [info] Eager extensions activated
+2025-08-22 11:59:16.763 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-22 11:59:16.766 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-22 11:59:18.620 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:opensshremotes.openEmptyWindowInCurrentWindow'
+2025-08-22 11:59:20.679 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-22 11:59:20.728 [info] Extension host with pid 33727 exiting with code 0
+2025-08-22 11:59:21.899 [info] Extension host with pid 33772 started
+2025-08-22 11:59:21.899 [info] [resolveAuthority(ssh-remote,1)][1ms] activating remote resolvers ssh-remote+vscode-direct
+2025-08-22 11:59:21.899 [info] [resolveAuthority(ssh-remote,1)][1ms] activating resolver for ssh-remote+vscode-direct...
+2025-08-22 11:59:21.915 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2025-08-22 11:59:21.987 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 11:59:22.124 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 11:59:22.125 [info] [resolveAuthority(ssh-remote,1)][241ms] invoking final resolve()...
+2025-08-22 11:59:22.688 [error] [resolveAuthority(ssh-remote,1)][804ms] returned an error An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:59:22.817 [info] Eager extensions activated
+2025-08-22 11:59:22.903 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-22 12:01:37.143 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh-edit, startup: false, activationEvent: 'onLanguage:ssh_config'
+2025-08-22 12:01:43.610 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-explorer.refresh'
+2025-08-22 12:01:49.257 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-22 12:01:49.277 [info] Extension host with pid 33772 exiting with code 0
+2025-08-22 12:01:50.660 [info] Extension host with pid 34025 started
+2025-08-22 12:01:50.661 [info] [resolveAuthority(ssh-remote,1)][1ms] activating remote resolvers ssh-remote+vscode
+2025-08-22 12:01:50.661 [info] [resolveAuthority(ssh-remote,1)][1ms] activating resolver for ssh-remote+vscode...
+2025-08-22 12:01:50.670 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2025-08-22 12:01:50.741 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 12:01:50.878 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 12:01:50.879 [info] [resolveAuthority(ssh-remote,1)][229ms] invoking final resolve()...
+2025-08-22 12:01:51.450 [error] [resolveAuthority(ssh-remote,1)][799ms] returned an error An unknown error occurred. Please consult the log for more details.
+2025-08-22 12:01:51.607 [info] Eager extensions activated
+2025-08-22 12:01:51.728 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-22 12:02:03.125 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-22 12:02:03.145 [info] Extension host with pid 34025 exiting with code 0

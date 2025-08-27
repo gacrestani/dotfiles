@@ -1,0 +1,16 @@
+[11:49:45.425] Log Level: 2
+[11:49:45.448] VS Code version: 1.103.2
+[11:49:45.448] Remote-SSH version: remote-ssh@0.120.0
+[11:49:45.449] linux x64
+[11:49:45.449] Picking SSH host
+[11:49:50.791] ConfigFileWatcher: start watching file:///home/crestang/.ssh/config
+[11:49:50.791] ConfigFileWatcher: adding save listener
+[11:49:50.792] ConfigFileWatcher: adding close listener
+[11:51:42.150] ConfigFileWatcher: saving file:///home/crestang/.ssh/config
+[11:51:42.151] ConfigFileWatcher: firing change event for file:///home/crestang/.ssh/config
+[11:51:45.432] Picking SSH host
+[11:51:49.943] Selected vscode-direct
+[11:58:51.740] Picking SSH host
+[11:58:53.332] Selected vscode-direct
+[12:15:18.642] Picking SSH host
+[12:15:20.431] Selected vscode

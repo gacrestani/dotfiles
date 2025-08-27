@@ -1,0 +1,22 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host alias
+    HostName hostname
+    User user
+
+Host hpc-direct
+    HostName hpc.cqls.oregonstate.edu
+    User crestang
+    PubkeyAcceptedKeyTypes +ssh-rsa
+    ControlMaster auto
+    ControlPath ~/.ssh/sockets/%r@%h-%p
+    ControlPersist 600
+    TCPKeepAlive no
+    ServerAliveInterval 30
+
+Host vscode-direct
+    HostName vs-gateway.hpc.oregonstate.edu
+    PubkeyAcceptedKeyTypes +ssh-rsa
+    ProxyJump hpc-direct
+    ControlPersist 600
+    TCPKeepAlive no
+    ServerAliveInterval 30

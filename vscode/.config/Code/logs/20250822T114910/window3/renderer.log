@@ -1,0 +1,694 @@
+2025-08-22 11:58:53.987 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:58:54.010 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:58:54.010 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:58:54.310 [info] Started local extension host with pid 33582.
+2025-08-22 11:58:54.333 [info] Invoking resolveAuthority(ssh-remote)...
+2025-08-22 11:58:54.334 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2025-08-22 11:58:55.008 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][675ms] invoking...
+2025-08-22 11:58:55.118 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 11:58:55.252 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 11:58:55.946 [error] [LocalProcess0][resolveAuthority(ssh-remote,1)][1612ms] returned an error {"code":"NotAvailable","message":"","detail":true}
+2025-08-22 11:58:55.946 [error] resolveAuthority(ssh-remote) returned an error after 1613 ms An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:58:55.947 [error] Error received from starting extension host (kind: Remote)
+2025-08-22 11:58:55.948 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:55.948 [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:58:55.948 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:55.949 [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:58:55.950 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:55.956 [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:58:55.957 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:55.992 [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:58:55.993 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.039 [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2025-08-22 11:58:56.040 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.041 [warning] Error getting remote process MCP environment An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:58:56.042 [error] Cannot register remote filesystem provider. Error while fetching remote environment. CodeExpectedError
+2025-08-22 11:58:56.042 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.043 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.044 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.051 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.104 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.158 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-22 11:58:56.911 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:58:56.965 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:07.717 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:07.718 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:07.718 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:07.907 [info] Started local extension host with pid 33643.
+2025-08-22 11:59:08.716 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-22 11:59:10.571 [info] [perf] Render performance baseline is 28ms
+2025-08-22 11:59:11.473 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:11.474 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:11.474 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:11.654 [info] Started local extension host with pid 33679.
+2025-08-22 11:59:11.680 [info] Invoking resolveAuthority(ssh-remote)...
+2025-08-22 11:59:11.681 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2025-08-22 11:59:12.220 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][539ms] invoking...
+2025-08-22 11:59:12.323 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 11:59:12.458 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 11:59:13.077 [error] [LocalProcess0][resolveAuthority(ssh-remote,1)][1397ms] returned an error {"code":"NotAvailable","message":"","detail":true}
+2025-08-22 11:59:13.078 [error] resolveAuthority(ssh-remote) returned an error after 1397 ms An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:59:13.078 [error] Error received from starting extension host (kind: Remote)
+2025-08-22 11:59:13.078 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.079 [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:13.079 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.079 [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:13.080 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.086 [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:13.086 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.125 [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:13.126 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.188 [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2025-08-22 11:59:13.189 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.191 [warning] Error getting remote process MCP environment An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:59:13.191 [error] Cannot register remote filesystem provider. Error while fetching remote environment. CodeExpectedError
+2025-08-22 11:59:13.192 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.193 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.194 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.196 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.282 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:13.334 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-22 11:59:14.227 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:14.245 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:15.537 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:15.537 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:15.538 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:15.702 [info] Started local extension host with pid 33727.
+2025-08-22 11:59:16.189 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-22 11:59:18.539 [info] [perf] Render performance baseline is 28ms
+2025-08-22 11:59:20.992 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:20.992 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:20.992 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 11:59:21.174 [info] Started local extension host with pid 33772.
+2025-08-22 11:59:21.224 [info] Invoking resolveAuthority(ssh-remote)...
+2025-08-22 11:59:21.225 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2025-08-22 11:59:21.839 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][615ms] invoking...
+2025-08-22 11:59:21.989 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 11:59:22.125 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 11:59:22.775 [error] [LocalProcess0][resolveAuthority(ssh-remote,1)][1551ms] returned an error {"code":"NotAvailable","message":"","detail":true}
+2025-08-22 11:59:22.776 [error] resolveAuthority(ssh-remote) returned an error after 1551 ms An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:59:22.776 [error] Error received from starting extension host (kind: Remote)
+2025-08-22 11:59:22.777 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.777 [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:22.777 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.778 [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:22.778 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.784 [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:22.785 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.814 [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2025-08-22 11:59:22.815 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.853 [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2025-08-22 11:59:22.853 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.855 [warning] Error getting remote process MCP environment An unknown error occurred. Please consult the log for more details.
+2025-08-22 11:59:22.855 [error] Cannot register remote filesystem provider. Error while fetching remote environment. CodeExpectedError
+2025-08-22 11:59:22.856 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.857 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.858 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.860 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.900 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:22.940 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-22 11:59:23.824 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:23.855 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 11:59:42.858 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:49.725 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 12:01:49.725 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 12:01:49.725 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-22 12:01:50.002 [info] Started local extension host with pid 34025.
+2025-08-22 12:01:50.025 [info] Invoking resolveAuthority(ssh-remote)...
+2025-08-22 12:01:50.026 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2025-08-22 12:01:50.631 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][605ms] invoking...
+2025-08-22 12:01:50.743 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:486184)
+    at 19534 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:504894)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 92839 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:466959)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 49424 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:465816)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 17130 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:596135)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 87631 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:576866)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 65861 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:600705)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 91577 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:856974)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 94111 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:819912)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 35187 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:690327)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 64417 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:846572)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24847 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:828930)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 54788 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:788284)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 30729 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:682648)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 24430 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:837945)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 52584 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:811300)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 69480 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:800490)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at 71535 (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:680397)
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1108387)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1109251
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117584
+    at Object.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1117690)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1472:32)
+    at Module._load (node:internal/modules/cjs/loader:1289:12)
+    at c._load (node:electron/js2c/node_init:2:18013)
+    at e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:25694)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1494:12)
+    at require (node:internal/modules/helpers:135:16)
+    at LZ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:237:1253)
+2025-08-22 12:01:50.879 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283829)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:283674
+    at r (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285048)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:285217
+    at Object.get (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284567)
+    at _ (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:284134)
+    at O (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:229826)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:163430
+    at Object.p [as use] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:205291)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206959
+    at s.<computed> [as watch] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:206970)
+    at B (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:207589)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:162741)
+    at e.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:170519
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:169778)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at Array.<anonymous> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244943)
+    at o (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:280977)
+    at u (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:244904)
+    at ge (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:213632)
+    at e.<computed> (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:216146)
+    at Object.initialize (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:276131)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140366
+    at g (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:239634)
+    at e.<computed> [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:140291)
+    at t.n [as initialize] (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:275397)
+    at /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339701
+    at async t.oneDataSystemClientFactory (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:339100)
+2025-08-22 12:01:51.540 [error] [LocalProcess0][resolveAuthority(ssh-remote,1)][1514ms] returned an error {"code":"NotAvailable","message":"","detail":true}
+2025-08-22 12:01:51.540 [error] resolveAuthority(ssh-remote) returned an error after 1515 ms An unknown error occurred. Please consult the log for more details.
+2025-08-22 12:01:51.541 [error] Error received from starting extension host (kind: Remote)
+2025-08-22 12:01:51.542 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.543 [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2025-08-22 12:01:51.544 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.545 [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2025-08-22 12:01:51.546 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.553 [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2025-08-22 12:01:51.553 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.602 [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2025-08-22 12:01:51.603 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.668 [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2025-08-22 12:01:51.669 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.671 [warning] Error getting remote process MCP environment An unknown error occurred. Please consult the log for more details.
+2025-08-22 12:01:51.671 [error] Cannot register remote filesystem provider. Error while fetching remote environment. CodeExpectedError
+2025-08-22 12:01:51.671 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.673 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.675 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.680 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.723 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:51.770 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-22 12:01:52.644 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:01:52.672 [error] CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804
+2025-08-22 12:02:03.124 [error] An unknown error occurred. Please consult the log for more details.: CodeExpectedError
+    at gkt.sb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15716)
+    at async gkt.rb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3648:15082)
+    at async gkt.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3654:3612)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82804

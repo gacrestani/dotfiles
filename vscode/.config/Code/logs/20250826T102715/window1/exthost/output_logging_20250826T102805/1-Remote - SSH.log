@@ -1,0 +1,199 @@
+[10:28:05.638] Log Level: 2
+[10:28:05.651] SSH Resolver called for "ssh-remote+shell", attempt 1
+[10:28:05.654] remote.SSH.useLocalServer = true
+[10:28:05.655] remote.SSH.useExecServer = true
+[10:28:05.655] remote.SSH.bindHost = {}
+[10:28:05.655] remote.SSH.path = 
+[10:28:05.655] remote.SSH.configFile = 
+[10:28:05.655] remote.SSH.useFlock = true
+[10:28:05.655] remote.SSH.lockfilesInTmp = false
+[10:28:05.656] remote.SSH.localServerDownload = auto
+[10:28:05.656] remote.SSH.remoteServerListenOnSocket = false
+[10:28:05.656] remote.SSH.defaultExtensions = []
+[10:28:05.656] remote.SSH.defaultExtensionsIfInstalledLocally = []
+[10:28:05.656] remote.SSH.loglevel = 2
+[10:28:05.656] remote.SSH.enableDynamicForwarding = true
+[10:28:05.656] remote.SSH.enableRemoteCommand = false
+[10:28:05.656] remote.SSH.serverPickPortsFromRange = {}
+[10:28:05.657] remote.SSH.serverInstallPath = {}
+[10:28:05.657] remote.SSH.permitPtyAllocation = false
+[10:28:05.657] remote.SSH.preferredLocalPortRange = undefined
+[10:28:05.657] remote.SSH.useCurlAndWgetConfigurationFiles = false
+[10:28:05.657] remote.SSH.experimental.chat = true
+[10:28:05.657] remote.SSH.experimental.enhancedSessionLogs = true
+[10:28:05.657] remote.SSH.httpProxy = {"*":""}
+[10:28:05.657] remote.SSH.httpsProxy = {"*":""}
+[10:28:05.664] VS Code version: 1.103.2
+[10:28:05.664] Remote-SSH version: remote-ssh@0.120.0
+[10:28:05.664] linux x64
+[10:28:05.667] SSH Resolver called for host: shell
+[10:28:05.667] Setting up SSH remote "shell"
+[10:28:05.671] Acquiring local install lock: /tmp/vscode-remote-ssh-11e1fc01-install.lock
+[10:28:05.672] Looking for existing server data file at /home/crestang/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-11e1fc01-6f17636121051a53c88d3e605c491d22af2ba755-0.120.0-es/data.json
+[10:28:05.672] No existing data file
+[10:28:05.672] Using commit id "6f17636121051a53c88d3e605c491d22af2ba755" and quality "stable" for server
+[10:28:05.672] Extensions to install: 
+[10:28:05.675] Install and start server if needed
+[10:28:05.677] PATH: /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+[10:28:05.677] Checking ssh with "ssh -V"
+[10:28:05.684] > OpenSSH_10.0p2 Debian-7, OpenSSL 3.5.1 1 Jul 2025
+
+[10:28:05.686] askpass server listening on /run/user/1000/vscode-ssh-askpass-febe79c17b0aaeb6064363257c5fbdfeee2479fc.sock
+[10:28:05.686] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-0575e153c732f128e4f7673d0e64e5493d6c4acf.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","46339","-o","ConnectTimeout=15","shell"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/crestang/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-11e1fc01-6f17636121051a53c88d3e605c491d22af2ba755-0.120.0-es/data.json"}
+[10:28:05.686] Local server env: {"SSH_AUTH_SOCK":"/run/user/1000/keyring/ssh","SHELL":"/bin/bash","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/usr/share/code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-febe79c17b0aaeb6064363257c5fbdfeee2479fc.sock"}
+[10:28:05.689] Spawned 7768
+[10:28:05.689] Using connect timeout of 17 seconds
+[10:28:05.753] > local-server-1> Running ssh connection command: ssh -v -T -D 46339 -o ConnectTimeout=15 shell
+[10:28:05.755] > local-server-1> Spawned ssh, pid=7776
+[10:28:05.773] > ===============================================================================
+> 
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*+++===++*#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*+====+++++====+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#===+++++++++++++==+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@+=++++++++++++++++++==#@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@+=+++++++++++++++++++++=#@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@*=++++++++++++++=+=++++++=@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@=+++++++++++++==#@*==++++=*@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@#=++++++++++++=+%@@@%+=+++=+@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@#=++++++++++==#@@@@@@@#==+++@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@#=++++++++==*%@@@@@@@@@%+=++@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@%=+++++++=+#@@@@@@%@@@@@@#=+@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@+=++++==*@@@@@@%+=+%@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@%=+++=+#@@@@@@*==+==#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@#===*@@@@@@%+=+++++=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+%@@@@@@*==+++++++==#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+=+++++++==+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*=========+*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##*****#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@[38;
+[10:28:06.227] > 5;15m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+> 
+> 
+>                               ___  ____  _   _
+>                              / _ \/ ___|| | | |
+>                             | | | \___ \| | | |
+>                             | |_| |___) | |_| |
+>                              \___/|____/ \___/
+>                   ____                               _
+>                  |  _ \ ___  ___  ___  __ _ _ __ ___| |__
+>                  | |_) / _ \/ __|/ _ \/ _` | '__/ __| '_ \
+>                  |  _ <  __/\__ \  __/ (_| | | | (__| | | |
+>                  |_| \_\___||___/\___|\__,_|_|  \___|_| |_|
+>               ____                            _   _
+>              / ___|___  _ __ ___  _ __  _   _| |_(_)_ __   __ _
+>             | |   / _ \| '_ ` _ \| '_ \| | | | __| | '_ \ / _` |
+>             | |__| (_) | | | | | | |_) | |_| | |_| | | | | (_| |
+>              \____\___/|_| |_| |_| .__/ \__,_|\__|_|_| |_|\__, |
+>                                  |_|                      |___/
+> 
+>         Welcome to the Oregon State University Research HPC Cluster
+> 
+>             Report any suspicious/unauthorized activity to the
+>               Office of Information Security (541) 737-9800
+>                             Log off after use
+> 
+>                               Documentation:
+>                      https://docs.hpc.oregonstate.edu
+> 
+>           System Summary (collected Tue Aug 26 04:59:01 AM EDT 2025)
+>             🏠 Hostname                  = shell
+>             💻 Private IP                = 10.224.64.43
+>             💻 Public  IP                = 128.193.83.33
+>             🫂 Total Users               = 21
+>             🫂 Unique Users              = 8
+> 
+> ===============================================================================
+[10:28:06.231] > Warning: no access to tty (Inappropriate ioctl for device).
+> Thus no job control in this shell.
+[10:28:08.617] > ready: 20380bb8761f
+[10:28:08.627] > Linux 5.14.0-503.31.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 11 16:53:43 UTC 2025
+[10:28:08.627] Platform: linux
+[10:28:08.630] > /bin/tcsh
+[10:28:08.630] Parent Shell: tcsh
+[10:28:08.630] Parent Shell pid: 7768
+[10:28:08.631] Waiting for subshell to start
+[10:28:08.651] > 3284111
+[10:28:08.651] stdout -> '3284111'
+[10:28:08.652] sub-process detected
+[10:28:08.662] > 20380bb8761f: running
+> Script executing under PID: 3284111
+[10:28:09.428] > Found existing installation at /home/zoo/crestang/.vscode-server...
+> Starting VS Code CLI...
+[10:28:09.437] > Removing old logfile at /home/zoo/crestang/.vscode-server/.cli.6f17636121051a53c88d3e605c491d22af2ba755.log
+[10:28:09.487] > Spawned remote CLI: 3284129
+[10:28:09.506] > Waiting for server log...
+[10:28:09.549] > Waiting for server log...
+[10:28:09.585] > Waiting for server log...
+[10:28:09.622] > Waiting for server log...
+[10:28:09.659] > Waiting for server log...
+[10:28:09.695] > Waiting for server log...
+[10:28:09.732] > Waiting for server log...
+[10:28:09.769] > Waiting for server log...
+[10:28:09.806] > Waiting for server log...
+[10:28:09.842] > Waiting for server log...
+[10:28:09.879] > Waiting for server log...
+[10:28:09.915] > Waiting for server log...
+[10:28:09.951] > Waiting for server log...
+[10:28:09.987] > Waiting for server log...
+[10:28:10.024] > Waiting for server log...
+[10:28:10.061] > 20380bb8761f: start
+> listeningOn====
+> osReleaseId==rocky==
+> arch==x86_64==
+> vscodeArch==x64==
+> bitness==64==
+> tmpDir==/run/user/1724800946==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> serverStartTime==624==
+> execServerToken==a111a111-aaa1-1a11-1a11-1a1a11111111==
+> platformDownloadPath==cli-alpine-x64==
+> SSH_AUTH_SOCK====
+> DISPLAY====
+> 20380bb8761f: end
+[10:28:10.061] Received install output: 
+listeningOn====
+osReleaseId==rocky==
+arch==x86_64==
+vscodeArch==x64==
+bitness==64==
+tmpDir==/run/user/1724800946==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+serverStartTime==624==
+execServerToken==a111a111-aaa1-1a11-1a11-1a1a11111111==
+platformDownloadPath==cli-alpine-x64==
+SSH_AUTH_SOCK====
+DISPLAY====
+
+[10:28:10.062] Failed to parse remote port from server output
+[10:28:10.062] Terminating local server
+[10:28:10.063] Resolver error: Error
+    at y.Create (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:744751)
+    at t.handleInstallOutput (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:742832)
+    at e (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:798600)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:823806
+    at async t.withShowDetailsEvent (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:827501)
+    at async /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:795312
+    at async P (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:793367)
+    at async t.resolveWithLocalServer (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:794864)
+    at async A (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:820659)
+    at async t.resolve (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:824898)
+    at async /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1113660
+[10:28:10.069] ------
+
+
+
+
+[10:28:10.070] No hints found in the recent session.
+[10:28:10.071] Local server exit: 15
