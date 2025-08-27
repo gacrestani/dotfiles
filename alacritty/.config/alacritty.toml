@@ -1,10 +1,10 @@
 # Window configuration
 [window]
-padding.x = 10
-padding.y = 10
-decorations = "Full" # Options: "Full", "None", "Buttonless"
+padding = { x = 20, y = 20 }
+decorations = "None" # Options: "Full", "None", "Buttonless"
 opacity = 0.9
 blur = true # Requires a compositor
+startup_mode = "Maximized"
 
 # Font configuration
 [font]
@@ -67,3 +67,8 @@ multiplier = 3 # Lines scrolled per increment
 [cursor]
 style = { shape = "Block", blinking = "On" }
 thickness = 0.15
+
+[mouse]
+bindings = [
+{ mouse = "Right", action = "Copy" },
+]
