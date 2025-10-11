@@ -1,0 +1,3 @@
+2025-08-25 16:19:57.815 [warning] RemoteTerminalBackend#getTerminalLayoutInfo Error ["Connecting with SSH timed out"]
+2025-08-25 16:20:04.953 [warning] Exception occurred during terminal shutdown [{"name":"CodeExpectedError","_message":"Connecting with SSH timed out","_code":"NotAvailable","_detail":true,"isHandled":true}]
+2025-08-25 16:22:18.089 [warning] Exception occurred during terminal shutdown [{"name":"CodeExpectedError","_message":"Connecting with SSH timed out","_code":"NotAvailable","_detail":true,"isHandled":true}]

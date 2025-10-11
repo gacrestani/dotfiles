@@ -1,0 +1,6 @@
+[27873:27873:0822/113713.417320:ERROR:ui/gl/gl_surface_presentation_helper.cc:260] GetVSyncParametersIfAvailable() failed for 1 times!
+[27873:27873:0822/113745.841443:ERROR:ui/gl/gl_surface_presentation_helper.cc:260] GetVSyncParametersIfAvailable() failed for 2 times!
+[27873:27873:0822/113746.137138:ERROR:ui/gl/gl_surface_presentation_helper.cc:260] GetVSyncParametersIfAvailable() failed for 3 times!
+[29986:29986:0822/114008.384565:ERROR:services/on_device_model/ml/gpu_blocklist.cc:120] Unable to get gpu adapter
+[27873:27873:0822/121757.390252:ERROR:ui/gl/gl_display.cc:508] EGL Driver message (Error) eglSwapBuffers: Failed to retrieve the size of the parent window.
+[27873:27873:0822/121757.390513:ERROR:components/viz/service/gl/exit_code.cc:13] Restarting GPU process due to unrecoverable error. Context was lost.

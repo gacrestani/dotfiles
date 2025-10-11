@@ -1,0 +1,230 @@
+[10:30:07.170] Log Level: 2
+[10:30:07.182] SSH Resolver called for "ssh-remote+vscode", attempt 1
+[10:30:07.185] remote.SSH.useLocalServer = true
+[10:30:07.186] remote.SSH.useExecServer = true
+[10:30:07.186] remote.SSH.bindHost = {}
+[10:30:07.186] remote.SSH.path = 
+[10:30:07.186] remote.SSH.configFile = 
+[10:30:07.186] remote.SSH.useFlock = true
+[10:30:07.186] remote.SSH.lockfilesInTmp = false
+[10:30:07.186] remote.SSH.localServerDownload = auto
+[10:30:07.187] remote.SSH.remoteServerListenOnSocket = false
+[10:30:07.187] remote.SSH.defaultExtensions = []
+[10:30:07.187] remote.SSH.defaultExtensionsIfInstalledLocally = []
+[10:30:07.187] remote.SSH.loglevel = 2
+[10:30:07.187] remote.SSH.enableDynamicForwarding = true
+[10:30:07.187] remote.SSH.enableRemoteCommand = false
+[10:30:07.187] remote.SSH.serverPickPortsFromRange = {}
+[10:30:07.188] remote.SSH.serverInstallPath = {}
+[10:30:07.188] remote.SSH.permitPtyAllocation = false
+[10:30:07.188] remote.SSH.preferredLocalPortRange = undefined
+[10:30:07.188] remote.SSH.useCurlAndWgetConfigurationFiles = false
+[10:30:07.188] remote.SSH.experimental.chat = true
+[10:30:07.188] remote.SSH.experimental.enhancedSessionLogs = true
+[10:30:07.188] remote.SSH.httpProxy = {"*":""}
+[10:30:07.188] remote.SSH.httpsProxy = {"*":""}
+[10:30:07.194] VS Code version: 1.103.2
+[10:30:07.194] Remote-SSH version: remote-ssh@0.120.0
+[10:30:07.194] linux x64
+[10:30:07.196] SSH Resolver called for host: vscode
+[10:30:07.196] Setting up SSH remote "vscode"
+[10:30:07.200] Acquiring local install lock: /tmp/vscode-remote-ssh-1f5470d3-install.lock
+[10:30:07.201] Looking for existing server data file at /home/crestang/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-1f5470d3-6f17636121051a53c88d3e605c491d22af2ba755-0.120.0-es/data.json
+[10:30:07.201] No existing data file
+[10:30:07.202] Using commit id "6f17636121051a53c88d3e605c491d22af2ba755" and quality "stable" for server
+[10:30:07.202] Extensions to install: 
+[10:30:07.204] Install and start server if needed
+[10:30:07.207] PATH: /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+[10:30:07.207] Checking ssh with "ssh -V"
+[10:30:07.213] > OpenSSH_10.0p2 Debian-7, OpenSSL 3.5.1 1 Jul 2025
+
+[10:30:07.215] askpass server listening on /run/user/1000/vscode-ssh-askpass-b0142278496e58b9073c2c93730e8ff5d20cf719.sock
+[10:30:07.215] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-56018d9d9c44230dbb08699eac56d61595ddb8fc.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","43521","-o","ConnectTimeout=15","vscode"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/crestang/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-1f5470d3-6f17636121051a53c88d3e605c491d22af2ba755-0.120.0-es/data.json"}
+[10:30:07.215] Local server env: {"SSH_AUTH_SOCK":"/run/user/1000/keyring/ssh","SHELL":"/bin/bash","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/usr/share/code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-b0142278496e58b9073c2c93730e8ff5d20cf719.sock"}
+[10:30:07.218] Spawned 8049
+[10:30:07.219] Using connect timeout of 17 seconds
+[10:30:07.281] > local-server-1> Running ssh connection command: ssh -v -T -D 43521 -o ConnectTimeout=15 vscode
+[10:30:07.284] > local-server-1> Spawned ssh, pid=8057
+[10:30:07.310] stderr> debug1: Server host key: ssh-ed25519 SHA256:3p87Z49ZTiRpT2yn72/REhHWhNIb9a93KxJJJmFnwlk
+[10:30:07.316] stderr> You Are Accessing an Oregon State University System
+[10:30:07.316] stderr>          Unauthorized Access Prohibited
+[10:30:07.316] stderr>      Use Constitutes a Consent to Monitoring
+[10:30:07.316] stderr>        Users have No Expectation of Privacy
+[10:30:07.316] stderr> 
+[10:30:07.402] stderr> Authenticated to vs-gateway.hpc.oregonstate.edu (via proxy) using "publickey".
+[10:30:07.664] > ===============================================================================
+> 
+> 
+> . ,-"-.   ,-"-. ,-"-.   ,-"-. ,-"-.   ,-"-. ,-"-.   ,-"-. ,-"-.   ,-"-. ,-"-.
+>  X | | \ / | | X | | \ / | | X | | \ / | | X | | \ / | | X | | \ / | | X | | \
+> / \| | |X| | |/ \| | |X| | |/ \| | |X| | |/ \| | |X| | |/ \| | |X| | |/ \| | |X
+>    `-!-' `-!-"   `-!-' `-!-'   `-!-' `-!-'   `-!-' `-!-'   `-!-' `-!-'   `-!-'
+> 
+> 
+>                          ______   ____      __      _____
+>                         / ____/  / __ \    / /     / ___/
+>                        / /      / / / /   / /      \__ \
+>                       / /___   / /_/ /   / /___   ___/ /
+>                       \____/   \___\_\  /_____/  /____/
+> 
+>                 Welcome to the CQLS "Wildwood HPC Cluster"
+> 
+>             Report any suspicious/unauthorized activity to the
+>               Office of Information Security (541) 737-9800
+>                             Log off after use
+> 
+>           System Summary (collected Tue Aug 26 04:59:01 AM EDT 2025)
+>             - Hostname                  = vs-gateway
+>             - Private IP                = 
+>             - Public  IP                = 
+>             - Login Count               = 1
+>             - Unique Users              = 1
+> 
+> ===============================================================================
+> Last failed login: Wed Aug 13 15:22:15 EDT 2025 from 10.224.64.62 on ssh:notty
+> There were 12 failed login attempts since the last successful login.
+[10:30:07.667] > Warning: no access to tty (Inappropriate ioctl for device).
+> Thus no job control in this shell.
+[10:30:08.904] > ready: 7703d14c6d17
+[10:30:08.909] > Linux 5.14.0-427.35.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Sep 12 18:24:53 UTC 2024
+[10:30:08.909] Platform: linux
+[10:30:08.910] > /bin/tcsh
+[10:30:08.910] Parent Shell: tcsh
+[10:30:08.910] Parent Shell pid: 8049
+[10:30:08.910] Waiting for subshell to start
+[10:30:08.914] > 3887246
+[10:30:08.914] stdout -> '3887246'
+[10:30:08.914] sub-process detected
+[10:30:08.924] > 7703d14c6d17: running
+> Script executing under PID: 3887246
+[10:30:08.949] > Found existing installation at /home/zoo/crestang/.vscode-server...
+> Starting VS Code CLI...
+[10:30:08.953] > Removing old logfile at /home/zoo/crestang/.vscode-server/.cli.6f17636121051a53c88d3e605c491d22af2ba755.log
+[10:30:09.101] > Spawned remote CLI: 3887264
+[10:30:09.123] > Waiting for server log...
+[10:30:09.166] > Waiting for server log...
+[10:30:09.203] > Waiting for server log...
+[10:30:09.239] > Waiting for server log...
+[10:30:09.277] > Waiting for server log...
+[10:30:09.313] > Waiting for server log...
+[10:30:09.356] > 7703d14c6d17: start
+> listeningOn==127.0.0.1:43489==
+> osReleaseId==rocky==
+> arch==x86_64==
+> vscodeArch==x64==
+> bitness==64==
+> tmpDir==/run/user/1724800946==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> serverStartTime==399==
+> execServerToken==11a1a111-a1aa-1aaa-a111-11a1a1111a11==
+> platformDownloadPath==cli-alpine-x64==
+> SSH_AUTH_SOCK====
+> DISPLAY====
+> 7703d14c6d17: end
+[10:30:09.357] Received install output: 
+listeningOn==127.0.0.1:43489==
+osReleaseId==rocky==
+arch==x86_64==
+vscodeArch==x64==
+bitness==64==
+tmpDir==/run/user/1724800946==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+serverStartTime==399==
+execServerToken==11a1a111-a1aa-1aaa-a111-11a1a1111a11==
+platformDownloadPath==cli-alpine-x64==
+SSH_AUTH_SOCK====
+DISPLAY====
+
+[10:30:09.358] Remote server is listening on port 43489
+[10:30:09.358] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":43489},"osReleaseId":"rocky","arch":"x86_64","sshAuthSock":"","display":"","tmpDir":"/run/user/1724800946","platform":"linux","execServerToken":"11a1a111-a1aa-1aaa-a111-11a1a1111a11"},"serverStartTime":399,"installUnpackCode":""}
+[10:30:09.359] Persisting server connection details to /home/crestang/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-1f5470d3-6f17636121051a53c88d3e605c491d22af2ba755-0.120.0-es/data.json
+[10:30:09.364] Starting forwarding server. local port 33471 -> socksPort 43521 -> remotePort 43489
+[10:30:09.364] Forwarding server listening on port 33471
+[10:30:09.365] Waiting for ssh tunnel to be ready
+[10:30:09.366] [Forwarding server port 33471] Got connection 0
+[10:30:09.368] Tunneled port 43489 to local port 33471
+[10:30:09.368] Resolved "ssh-remote+vscode" to "port 33471"
+[10:30:09.379] Initizing new exec server for ssh-remote+vscode
+[10:30:09.380] Resolving exec server at port 33471
+[10:30:09.381] [Forwarding server port 33471] Got connection 1
+[10:30:09.463] Exec server for ssh-remote+vscode created and cached
+[10:30:09.464] Extensions to install: 
+[10:30:09.471] ------
+
+
+
+
+[10:30:09.472] No hints found in the recent session.
+[10:30:09.545] [server] Checking /home/zoo/crestang/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/log.txt and /home/zoo/crestang/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/pid.txt for a running server...
+[10:30:10.130] [server] Installing and setting up Visual Studio Code Server...
+[10:30:10.172] [server] Server setup complete
+[10:30:10.173] [server] Starting server...
+[10:30:10.173] [server] Starting server with command... Command { std: "/home/zoo/crestang/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/code-server" "--connection-token=remotessh" "--accept-server-license-terms" "--start-server" "--enable-remote-auto-shutdown" "--socket-path=/tmp/code-4fb188d5-44fa-43e8-a757-3305830ff7e6", kill_on_drop: false }
+[10:30:40.543] [server] *
+[10:30:40.543] [server] * Visual Studio Code Server
+[10:30:40.544] [server] *
+[10:30:40.544] [server] * By using the software, you agree to
+[10:30:40.544] [server] * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[10:30:40.545] [server] * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[10:30:40.545] [server] *
+[10:30:40.555] [server] Server bound to /tmp/code-4fb188d5-44fa-43e8-a757-3305830ff7e6
+[10:30:40.555] [server] Extension host agent listening on /tmp/code-4fb188d5-44fa-43e8-a757-3305830ff7e6
+[10:30:40.555] [server] parsed location: "/tmp/code-4fb188d5-44fa-43e8-a757-3305830ff7e6"
+[10:30:40.556] [server] 
+[10:30:40.556] [server] Server started
+[10:30:43.342] [server] [13:30:43] 
+[10:30:43.385] [server] 
+[10:30:43.385] [server] 
+[10:30:43.386] [server] 
+[10:30:54.385] [server] [13:30:54] Extension host agent started.
+[10:30:55.251] [server] [13:30:55] [<unknown>][91f6bf00][ManagementConnection] New connection established.
+[10:30:55.257] [server] [13:30:55] [<unknown>][28734367][ExtensionHostConnection] New connection established.
+[10:30:57.181] [server] [13:30:57] [<unknown>][28734367][ExtensionHostConnection] <3887457> Launched Extension Host Process.
+[10:31:00.670] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:00.671] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:00.671] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:00.672] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:00.672] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:00.672] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:00.673] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:00.673] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:00.674] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:00.674] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:00.674] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:00.674] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:00.678] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:00.678] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:00.678] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:00.679] [server] [13:31:00] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:04.269] [server] [13:31:04] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:04.269] [server] [13:31:04] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:04.269] [server] [13:31:04] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:04.270] [server] [13:31:04] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:05.190] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:05.190] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:05.190] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:05.190] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:05.561] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:05.561] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:05.561] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:05.561] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:05.615] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:05.656] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:05.657] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:05.657] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:05.834] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:05.880] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:05.880] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:05.880] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.
+[10:31:05.931] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openBrowser.
+[10:31:05.977] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key openPreview.
+[10:31:05.977] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTPS.
+[10:31:05.978] [server] [13:31:05] [gitpod-remote-ssh]: Couldn't find message for key makeHTTP.

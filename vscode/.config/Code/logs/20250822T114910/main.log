@@ -1,0 +1,17 @@
+2025-08-22 11:49:10.297 [info] update#setState idle
+2025-08-22 11:49:40.244 [info] update#setState checking for updates
+2025-08-22 11:49:40.300 [info] update#setState idle
+2025-08-22 11:52:08.417 [info] Extension host with pid 32824 exited with code: 0, signal: unknown.
+2025-08-22 11:52:09.684 [info] Extension host with pid 32904 exited with code: 0, signal: unknown.
+2025-08-22 11:59:07.403 [info] Extension host with pid 33582 exited with code: 0, signal: unknown.
+2025-08-22 11:59:11.220 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 33634]: crashed with code 15 and reason 'killed'
+2025-08-22 11:59:11.224 [info] Extension host with pid 33643 exited with code: 0, signal: unknown.
+2025-08-22 11:59:15.158 [info] Extension host with pid 33679 exited with code: 0, signal: unknown.
+2025-08-22 11:59:20.729 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 33726]: crashed with code 15 and reason 'killed'
+2025-08-22 11:59:20.733 [info] Extension host with pid 33727 exited with code: 0, signal: unknown.
+2025-08-22 12:01:49.278 [info] Extension host with pid 33772 exited with code: 0, signal: unknown.
+2025-08-22 12:01:49.316 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 33762]: crashed with code 15 and reason 'killed'
+2025-08-22 12:02:03.148 [info] Extension host with pid 34025 exited with code: 0, signal: unknown.
+2025-08-22 12:13:27.805 [warning] No ptyHost heartbeat after 6 seconds
+2025-08-22 12:17:44.496 [info] Extension host with pid 34436 exited with code: 0, signal: unknown.
+2025-08-22 12:17:45.488 [info] Extension host with pid 32601 exited with code: 0, signal: unknown.

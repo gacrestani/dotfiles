@@ -1,0 +1,4 @@
+[0822/113713.339608:ERROR:cef/libcef/browser/browser_info_manager.cc:841] Timeout of new browser info response for frame 6-99404D9D907B99A3629028FA47C95254 (has_rfh=1)
+[0822/113713.353661:ERROR:mojo/public/cpp/bindings/lib/interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost
+[0822/114008.384967:ERROR:services/on_device_model/public/cpp/service_client.cc:36] Unexpected on_device_model service disconnect: The device's GPU is not supported.
+[0822/121757.432423:ERROR:content/browser/gpu/gpu_process_host.cc:955] GPU process exited unexpectedly: exit_code=8704

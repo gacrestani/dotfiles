@@ -1,0 +1,96 @@
+[11:58:55.228] Log Level: 2
+[11:58:55.253] SSH Resolver called for "ssh-remote+vscode-direct", attempt 1
+[11:58:55.259] remote.SSH.useLocalServer = true
+[11:58:55.259] remote.SSH.useExecServer = true
+[11:58:55.260] remote.SSH.bindHost = {}
+[11:58:55.260] remote.SSH.path = 
+[11:58:55.260] remote.SSH.configFile = 
+[11:58:55.260] remote.SSH.useFlock = true
+[11:58:55.260] remote.SSH.lockfilesInTmp = false
+[11:58:55.261] remote.SSH.localServerDownload = auto
+[11:58:55.261] remote.SSH.remoteServerListenOnSocket = false
+[11:58:55.261] remote.SSH.defaultExtensions = []
+[11:58:55.261] remote.SSH.defaultExtensionsIfInstalledLocally = []
+[11:58:55.261] remote.SSH.loglevel = 2
+[11:58:55.262] remote.SSH.enableDynamicForwarding = true
+[11:58:55.262] remote.SSH.enableRemoteCommand = false
+[11:58:55.262] remote.SSH.serverPickPortsFromRange = {}
+[11:58:55.262] remote.SSH.serverInstallPath = {}
+[11:58:55.262] remote.SSH.permitPtyAllocation = false
+[11:58:55.263] remote.SSH.preferredLocalPortRange = undefined
+[11:58:55.263] remote.SSH.useCurlAndWgetConfigurationFiles = false
+[11:58:55.263] remote.SSH.experimental.chat = true
+[11:58:55.263] remote.SSH.experimental.enhancedSessionLogs = true
+[11:58:55.263] remote.SSH.httpProxy = {"*":""}
+[11:58:55.264] remote.SSH.httpsProxy = {"*":""}
+[11:58:55.276] VS Code version: 1.103.2
+[11:58:55.276] Remote-SSH version: remote-ssh@0.120.0
+[11:58:55.276] linux x64
+[11:58:55.279] SSH Resolver called for host: vscode-direct
+[11:58:55.279] Setting up SSH remote "vscode-direct"
+[11:58:55.287] Acquiring local install lock: /tmp/vscode-remote-ssh-2fb0e6eb-install.lock
+[11:58:55.289] Looking for existing server data file at /home/crestang/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-2fb0e6eb-6f17636121051a53c88d3e605c491d22af2ba755-0.120.0-es/data.json
+[11:58:55.290] No existing data file
+[11:58:55.291] Using commit id "6f17636121051a53c88d3e605c491d22af2ba755" and quality "stable" for server
+[11:58:55.291] Extensions to install: 
+[11:58:55.297] Install and start server if needed
+[11:58:55.302] PATH: /home/crestang/.local/bin:/home/crestang/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+[11:58:55.302] Checking ssh with "ssh -V"
+[11:58:55.313] > OpenSSH_10.0p2 Debian-7, OpenSSL 3.5.1 1 Jul 2025
+
+[11:58:55.318] askpass server listening on /run/user/1000/vscode-ssh-askpass-9d1141171cb414093f33beb7407f79cdb236f686.sock
+[11:58:55.318] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-8203885b185d52798dd3ffc367499d0d19f0f4c5.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","43281","-o","ConnectTimeout=15","vscode-direct"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/crestang/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-2fb0e6eb-6f17636121051a53c88d3e605c491d22af2ba755-0.120.0-es/data.json"}
+[11:58:55.318] Local server env: {"SSH_AUTH_SOCK":"/run/user/1000/keyring/ssh","SHELL":"/bin/bash","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/usr/share/code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-9d1141171cb414093f33beb7407f79cdb236f686.sock"}
+[11:58:55.322] Spawned 33610
+[11:58:55.323] Using connect timeout of 17 seconds
+[11:58:55.445] > local-server-1> Running ssh connection command: ssh -v -T -D 43281 -o ConnectTimeout=15 vscode-direct
+[11:58:55.449] > local-server-1> Spawned ssh, pid=33618
+[11:58:55.568] stderr> debug1: Server host key: ssh-ed25519 SHA256:d/upNIFLu/E/Q6vUGe0ZuDmtMYAWiMNSJ7k2j+PN2qA
+[11:58:55.668] stderr> 
+[11:58:55.669] stderr> You Are Accessing an Oregon State University System
+[11:58:55.669] stderr>          Unauthorized Access Prohibited
+[11:58:55.669] stderr>      Use Constitutes a Consent to Monitoring
+[11:58:55.669] stderr>        Users have No Expectation of Privacy
+[11:58:55.669] stderr> 
+[11:58:55.778] stderr> Authenticated to hpc.cqls.oregonstate.edu ([128.193.83.45]:22) using "publickey".
+[11:58:55.778] stderr> unix_listener: cannot bind to path /home/crestang/.ssh/sockets/crestang@hpc.cqls.oregonstate.edu-22.F5qNz5JJBfyY2Q2r: No such file or directory
+[11:58:55.778] stderr> kex_exchange_identification: Connection closed by remote host
+[11:58:55.778] stderr> Connection closed by UNKNOWN port 65535
+[11:58:55.784] > local-server-1> ssh child died, shutting down
+[11:58:55.791] Local server exit: 0
+[11:58:55.791] Received install output: local-server-1> Running ssh connection command: ssh -v -T -D 43281 -o ConnectTimeout=15 vscode-direct
+local-server-1> Spawned ssh, pid=33618
+debug1: Server host key: ssh-ed25519 SHA256:d/upNIFLu/E/Q6vUGe0ZuDmtMYAWiMNSJ7k2j+PN2qA
+
+You Are Accessing an Oregon State University System
+         Unauthorized Access Prohibited
+     Use Constitutes a Consent to Monitoring
+       Users have No Expectation of Privacy
+
+Authenticated to hpc.cqls.oregonstate.edu ([128.193.83.45]:22) using "publickey".
+unix_listener: cannot bind to path /home/crestang/.ssh/sockets/crestang@hpc.cqls.oregonstate.edu-22.F5qNz5JJBfyY2Q2r: No such file or directory
+kex_exchange_identification: Connection closed by remote host
+Connection closed by UNKNOWN port 65535
+local-server-1> ssh child died, shutting down
+
+[11:58:55.792] WARN: $PLATFORM is undefined in installation script output.  Errors may be dropped.
+[11:58:55.793] Failed to parse remote port from server output
+[11:58:55.795] Resolver error: Error
+    at y.Create (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:744751)
+    at t.handleInstallOutput (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:742832)
+    at e (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:798600)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:823806
+    at async t.withShowDetailsEvent (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:827501)
+    at async /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:795312
+    at async P (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:793367)
+    at async t.resolveWithLocalServer (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:794864)
+    at async A (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:820659)
+    at async t.resolve (/home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:824898)
+    at async /home/crestang/.vscode/extensions/ms-vscode-remote.remote-ssh-0.120.0/out/extension.js:2:1113660
+[11:58:55.807] ------
+
+
+
+
+[11:58:55.808] No hints found in the recent session.

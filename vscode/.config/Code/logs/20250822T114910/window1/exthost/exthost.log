@@ -1,0 +1,17 @@
+2025-08-22 11:49:12.201 [info] Extension host with pid 32601 started
+2025-08-22 11:49:12.366 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-22 11:49:12.404 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-22 11:49:12.488 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-22 11:49:12.497 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-22 11:49:12.553 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-22 11:49:12.729 [info] Eager extensions activated
+2025-08-22 11:49:12.833 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-22 11:49:12.835 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-22 11:49:17.396 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-22 11:49:17.405 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-22 11:49:17.472 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-22 11:49:45.236 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:opensshremotes.openEmptyWindow'
+2025-08-22 11:49:50.826 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh-edit, startup: false, activationEvent: 'onLanguage:ssh_config'
+2025-08-22 11:51:42.162 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-explorer.refresh'
+2025-08-22 12:17:45.434 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-22 12:17:45.486 [info] Extension host with pid 32601 exiting with code 0

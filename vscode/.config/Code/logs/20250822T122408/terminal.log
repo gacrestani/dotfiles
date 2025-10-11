@@ -1,0 +1,18 @@
+2025-08-22 12:25:02.750 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 55.40ms
+ptyhostservice<->ptyhost: 1.96ms []
+2025-08-22 12:25:02.751 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 55.10ms
+ptyhostservice<->ptyhost: 1.85ms []
+2025-08-22 12:25:02.751 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 55.10ms
+ptyhostservice<->ptyhost: 1.79ms []
+2025-08-22 12:25:02.752 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 51.60ms
+ptyhostservice<->ptyhost: 1.73ms []
+2025-08-22 12:25:04.868 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 65.70ms
+ptyhostservice<->ptyhost: 2.02ms []
+2025-08-22 12:25:07.315 [info] Latency measurements for ssh-remote+vscode backend
+window<->ptyhostservice<->ptyhost: 23.40ms
+ptyhostservice<->ptyhost: 0.25ms []
